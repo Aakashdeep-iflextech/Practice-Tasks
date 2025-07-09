@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo List Manager</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h2>Todo List Manager</h2>
+
+      <div class="task-form">
+        <input type="text" id="taskTitle" placeholder="Title" />
+        <input type="text" id="taskDescription" placeholder="Description" />
+        <input type="date" id="taskDueDate" class="calender" />
+        <select id="taskPriority">
+          <option value="disable">Select Priority</option>
+          <option value="Low">Low</option>
+          <option value="Medium">Medium</option>
+          <option value="High">High</option>
+        </select>
+        <label> <input type="checkbox" id="taskCompleted" /> Completed </label>
+        <button id="saveTask">Save Task</button>
+      </div>
+
+      <div class="filter-buttons">
+        <button id="showAll">All Tasks</button>
+        <button id="showPending">Pending Tasks</button>
+        <button id="showCompleted">Completed Tasks</button>
+      </div>
+
+      <div id="todoList" class="todo-list"></div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

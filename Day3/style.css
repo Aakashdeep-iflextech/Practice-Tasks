@@ -1,0 +1,89 @@
+body {
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        padding: 40px;
+        background-color: #f4f6f8;
+        color: #333;
+      }
+
+      h2 {
+        text-align: center;
+        color: #2c3e50;
+        margin-bottom: 30px;
+      }
+
+      .section {
+        background: #fff;
+        padding: 20px 30px;
+        margin-bottom: 30px;
+        border-radius: 10px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+        max-width: 600px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      h3 {
+        border-bottom: 2px solid #eee;
+        padding-bottom: 8px;
+        margin-bottom: 15px;
+        color: #34495e;
+      }
+
+      input {
+        margin: 8px 5px 8px 0;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        width: 160px;
+        font-size: 14px;
+        transition: border-color 0.3s ease;
+      }
+
+      input:focus {
+        border-color: #007bff;
+        outline: none;
+      }
+
+      button {
+        padding: 10px 16px;
+        background-color: #007bff;
+        border: none;
+        color: #fff;
+        border-radius: 5px;
+        font-size: 14px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+      }
+
+      button:hover {
+        background-color: #0056b3;
+      }
+
+      .user-card {
+        background-color: #fff;
+        border-radius: 8px;
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+        padding: 12px 18px;
+        margin-bottom: 12px;
+        font-size: 15px;
+      }
+
+      #userList {
+        margin-top: 15px;
+      }
+
+      .user-info {
+        font-weight: 500;
+        color: #2c3e50;
+      }
+
+      @media (max-width: 600px) {
+        input {
+          width: 100%;
+          margin-bottom: 10px;
+        }
+
+        button {
+          width: 100%;
+        }
+      }

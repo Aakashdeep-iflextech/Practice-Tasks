@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Random Number</title>
+  </head>
+  <body>
+    <div>
+      <button>Get OTP</button>
+      <div id="numberDisplay" style="margin-top: 20px; font-size: 24px">
+        - - - - - -
+      </div>
+    </div>
+
+    <script>
+      const btn = document.querySelector("button");
+      const numberDisplay = document.getElementById("numberDisplay");
+
+      function random(number) {
+        const min = 100000;
+        const max = 999999;
+        return Math.floor(Math.random() * (max - min + 1)) + min;
+      }
+
+      btn.addEventListener("click", () => {
+        const rndnum = random(999999);
+        numberDisplay.textContent = rndnum;
+      });
+    </script>
+  </body>
+</html>

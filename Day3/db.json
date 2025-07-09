@@ -1,0 +1,39 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Aakashdeep",
+      "address": {
+        "city": "noida"
+      }
+    },
+    {
+      "id": "4",
+      "name": "bahubali",
+      "address": {
+        "city": "mahesmati"
+      }
+    },
+    {
+      "id": "5",
+      "name": "shubham",
+      "address": {
+        "city": "gajipur"
+      }
+    },
+    {
+      "id": "3",
+      "name": "Ankit",
+      "address": {
+        "city": "Rajasthan"
+      }
+    },
+    {
+      "id": "2",
+      "name": "kkgfkjf",
+      "address": {
+        "city": "khgfkhgk"
+      }
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Mini User Management System</title>
+    <style></style>
+  </head>
+  <body>
+    <h2>Mini User Management System</h2>
+
+    <div class="section">
+      <h3>Add New User</h3>
+      <input type="number" id="addId" placeholder="ID" />
+      <input type="text" id="addName" placeholder="Name" />
+      <input type="text" id="addCity" placeholder="City" />
+      <button onclick="addUser()">Add User</button>
+    </div>
+
+    <div class="section">
+      <h3>Update User's City</h3>
+      <input type="number" id="updateId" placeholder="ID" />
+      <input type="text" id="newCity" placeholder="New City" />
+      <button onclick="updateUserCity()">Update City</button>
+    </div>
+
+    <div class="section">
+      <h3>Remove User</h3>
+      <input type="number" id="removeId" placeholder="ID" />
+      <button onclick="removeUser()">Remove User</button>
+    </div>
+
+    <div class="section">
+      <h3>User List</h3>
+      <div id="userList"></div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
